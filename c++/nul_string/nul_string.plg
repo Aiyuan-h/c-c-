@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: nul_string - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5BB8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/nul_string.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\c++\nul_string\nul_string.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5BB8.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5BC8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/nul_string.pdb" /debug /machine:I386 /out:"Debug/nul_string.exe" /pdbtype:sept 
+".\Debug\nul_string.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5BC8.tmp"
+<h3>Output Window</h3>
+Compiling...
+nul_string.c
+E:\c++\nul_string\nul_string.c(17) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'const int '
+E:\c++\nul_string\nul_string.c(17) : warning C4024: 'puts' : different types for formal and actual parameter 1
+Linking...
+
+
+
+<h3>Results</h3>
+nul_string.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

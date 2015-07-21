@@ -1,0 +1,13 @@
+﻿生成启动时间为 2014/5/16 21:16:54。
+     1>项目“E:\c++\stack\stack\stack.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源1.cpp"
+         源1.cpp
+     1>e:\c++\stack\stack\源1.cpp(39): error C2248: “Stack::top”: 无法访问 private 成员(在“Stack”类中声明)
+                 e:\c++\stack\stack\stack.h(11) : 参见“Stack::top”的声明
+                 e:\c++\stack\stack\stack.h(7) : 参见“Stack”的声明
+     1>已完成生成项目“E:\c++\stack\stack\stack.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.14
